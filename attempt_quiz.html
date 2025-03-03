@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attempt Quiz - LMS</title>
+</head>
+<body class="attempt_quiz">
+    <header>
+        <img src="logo.jpg" alt="LMS Logo" style="width: 100px; height: 100px;">
+        <h1>LMS - Learning Management System</h1>
+        <h2>LMS - Attempt Quiz</h2>
+    </header>
+    <div>
+        <nav>
+            <a href="index.html">Homepage</a> 
+            <a href="course_view.html">Courses</a> 
+        </nav>
+    </div>
+    <main>
+        <img class="quiz-banner" src="banner.jpg" alt="Quiz Banner">
+        <div class="quiz-details">
+        <p><quiz-heading>Course Name: Web Development</quiz-heading></p>
+        <p><quiz-heading>Course Code: WD381</quiz-heading></p>
+        <p>Topic: HTML Basics</p>
+        <p>Last Date: February 10, 2025</p>
+        <p>Attempts Allowed: 1</p>
+        </div>
+        
+        <body-quiz>
+        <h3>Question 1</h3>
+        <p>What does HTML stand for?</p>
+        <div class="quiz-box">
+        <input type="radio" id="q1a" name="q1" value="Hyper Text Markup Language">
+        <label for="q1a">Hyper Text Markup Language</label><br>
+        <input type="radio" id="q1b" name="q1" value="Home Tool Markup Language">
+        <label for="q1b">Home Tool Markup Language</label><br>
+        </div>
+        <div align="center"><button class="button-submit-answer">Submit Answer</button></div>
+        
+        <h3>Question 2</h3>
+        <p>Which of the following are HTML elements? (Select all that apply)</p>
+        <div class="quiz-box">
+        <input type="checkbox" id="q2a" name="q2" value="<div>">
+        <label for="q2a">&lt;div&gt;</label><br>
+        <input type="checkbox" id="q2b" name="q2" value="<span>">
+        <label for="q2b">&lt;span&gt;</label><br>
+        </div>
+        <div align="center"><button class="button-submit-answer">Submit Answer</button></div>
+        </body-quiz>
+        
+        <br><br>
+        <form>
+            <div align="center"><button class="button-finish-quiz" type="submit" formaction="leaderboard.html">Finish</button></div>
+            <br><br>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 LMS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
